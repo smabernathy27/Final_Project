@@ -22,12 +22,10 @@ Using these csv files, we will explore and visualize the provided data to unders
 >>  &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;iii. Train/fit the training data to the model  
 >>  &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;iv. Use the model for predictions and transformations*</sub>  
 
-Once the data was finished preprocessing, we trained and evaluated several machine learning models, including logistic regression, decision trees, random forests, and neural networks, to predict the winner of March Madness games. After optimizing the performance of the models, the final results of each model were compared (including the best performing model and its accuracy) to select the best one for predicting the outcome of March Madness games. 
+Once the data is finished preprocessing, we train and evaluate several machine learning models, including logistic regression, decision trees, random forests, and neural networks, to predict the winner of March Madness games. After optimizing the performance of the models, the final results of each model are compared (including the best performing model and its accuracy) to select the best one for predicting the outcome of March Madness games. 
 
 ## Overview of Analysis
 
----
----
 ## Results
 
 ## Summary
