@@ -17,13 +17,13 @@ Using [Kaggle](https://www.kaggle.com/), the following datasets from 2008-2023 *
 
 Using the above csv files, we planned out the relations first between different datasets with [Quick DBD](https://www.quickdatabasediagrams.com/) to help model the data through ERDs conceptually, logically, and physically. Using SQLite through **pgAdmin**, SQL queries were written & executed in the [March_Madness.sql]() to create tables for building a database. Exported as the following CSV files:  
 ### Databases 
-> [database1]()  
-> [database2]()  
+> [database1](https://github.com/smabernathy27/Final_Project/blob/main/)  
+> [database2](https://github.com/smabernathy27/Final_Project/blob/main/)  
 ### Tables
-> [Tournament Game Data]()
-> [Tournament Team Data]()
-> [Tournament Conference Data]()
-> [Upset Count Data]()
+> [Tournament Game Data](https://github.com/smabernathy27/Final_Project/blob/main/)
+> [Tournament Team Data](https://github.com/smabernathy27/Final_Project/blob/main/)
+> [Tournament Conference Data](https://github.com/smabernathy27/Final_Project/blob/main/)
+> [Upset Count Data](https://github.com/smabernathy27/Final_Project/blob/main/)
 
 After exporting these tables as CSV files, the data is ready to be preprocessed.   
 
