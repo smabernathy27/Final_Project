@@ -32,10 +32,10 @@ We will then train and evaluate several machine learning models *(including logi
 After conlusively optimizing the performance of all models, the final results of each model are compared *(including the best performing model and its accuracy)* to select the best model for predicting the outcome of March Madness games. 
 
 Questions we are looking to answer:
-> Do higher seeds consistenly perform better?
-> Do certain confrences perform better in March Madness?
-> How many upsets are there on average in a tournament? Are they're specific seeds or teams with certain kenpom rankings that create the most upsets?
-> Can we use these trends to pick a winner or narrow it down significantly?
+- Do higher seeds consistenly perform better?
+- Do certain confrences perform better in March Madness?
+- How many upsets are there on average in a tournament? Are they're specific seeds or teams with certain kenpom rankings that create the most upsets?
+- Can we use these trends to pick a winner or narrow it down significantly?
 
 ## Overview of Analysis
 
