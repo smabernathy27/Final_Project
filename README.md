@@ -16,9 +16,15 @@ Using [Kaggle](https://www.kaggle.com/), the following datasets from 2008-2023 *
 
 
 Using the above csv files, we planned out the relations first between different datasets with [Quick DBD](https://www.quickdatabasediagrams.com/) to help model the data through ERDs conceptually, logically, and physically. Using SQLite through **pgAdmin**, SQL queries were written & executed in the [March_Madness.sql]() to create tables for building a database. Exported as the following CSV files:  
+### Databases 
 > [database1]()  
 > [database2]()  
-  
+### Tables
+> [Tournament Game Data]()
+> [Tournament Team Data]()
+> [Tournament Conference Data]()
+> [Upset Count Data]()
+
 After exporting these tables as CSV files, the data is ready to be preprocessed.   
 
  *- The process of **model->fit->predict/transform** follows the same general steps across all of data science:*   
@@ -36,7 +42,6 @@ Questions we are looking to answer:
 - Do certain confrences perform better in March Madness?
 - How many upsets are there on average in a tournament? Are they're specific seeds or teams with certain kenpom rankings that create the most upsets?
 - Can we use these trends to pick a winner or narrow it down significantly?
-
 ## Overview of Analysis
 
 ## Results
