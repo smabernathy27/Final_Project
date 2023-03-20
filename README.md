@@ -46,21 +46,19 @@ The resulting created tables for building a March Madness database exported as C
 
 ---
 
-### **Extract, Transform, and Load**
+### **Machine Learning**
 
-After exporting these tables as CSV files, the data is ready to be preprocessed.   
-
-We will then train and evaluate several machine learning models *(including logistic regression, decision trees, random forests, and neural networks)* to understand the trends and patterns in March Madness games.   
+After exporting these tables as CSV files, the data is ready to be preprocessed. We will then train and evaluate several machine learning models *(including logistic regression, decision trees, random forests, and neural networks)* to understand the trends and patterns in March Madness games.   
 
 After conlusively optimizing the performance of all models, the final results of each model are compared *(including the best performing model and its accuracy)* to select the best model for predicting the outcome of March Madness games. 
 
 ---
 
-**Questions we are looking to answer:**
-- ***Do higher seeds consistenly perform better?***
-- ***Do certain conferences perform better in March Madness?***
-- ***How many upsets are there on average in a tournament? Are they're specific seeds or teams with certain kenpom rankings that create the most upsets?***
-- ***Can we use these trends to pick a winner or narrow it down significantly?***
+### **Questions looking to answer:**
+- Do higher seeds consistenly perform better?
+- Do certain conferences perform better in March Madness?
+- How many upsets are there on average in a tournament? Are they're specific seeds or teams with certain kenpom rankings that create the most upsets?
+- Can we use these trends to pick a winner or narrow it down significantly?
 
 ---
 ---
