@@ -31,14 +31,14 @@ The above datasets pulled from [https://kenpom.com/](https://kenpom.com/) & [htt
 
 ---
 
-### **Extract, Transform, and Load with SQL**
-Once the dataset CSV files are imported succesfully into a **PostgreSQL** database using **pgAdmin**, we can start to clean, organize, and perform exploratory data analysis on March Madness datasets.
+### **March Madness Database with SQL**
+Once the dataset CSV files are imported succesfully into a **PostgreSQL** database using **pgAdmin**, we cleaned, organized, and performed initial exploratory data analysis on the pulled March Madness datasets above.
 >> ***PostgreSQL** is a database engine that implements SQL standards and listens as a server on a network TCP port to provide its abilities. On the other hand, **pgAdmin** is a graphical user interface administration tool for **PostgreSQL**. It’s a client that allows you to manipulate schema and data on an instance or multiple instances of PostgreSQL engines.*
 
-, we wrote and executed SQL queries in a query tool:
+Basing the relational database of the imported datasets off our initially diagrammed ERD, we wrote and executed ***SQL queries*** in a query tool with **pgAdmin**:
 > [March_Madness.sql]() 
 
-The resulting created tables for building a March Madness database exported as CSV files below:
+To create tables for building one March Madness **PostgreSQL database**, exported as the CSV files below:
 > [Tournament Game Data](https://github.com/smabernathy27/Final_Project/blob/main/)
 > [Tournament Team Data](https://github.com/smabernathy27/Final_Project/blob/main/)
 > [Tournament Conference Data](https://github.com/smabernathy27/Final_Project/blob/main/)
@@ -65,7 +65,7 @@ After conlusively optimizing the performance of all models, the final results of
 
 ## Overview of Analysis
 
-### March Madness Database with SQL
+### **Extract, Transform, and Load with SQL**
 - Data Modeling
 - Data Engineering
 - Data Analysis
