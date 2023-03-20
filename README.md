@@ -3,17 +3,17 @@ March Madness is an annual college basketball tournament that captivates sports 
 
 ---
 
-### **Technologies Used**
+### **Data Analysis Technology Tools**
 > ***SQL***<sub>*(Structured Query Language)*</sub>: &ensp;&thinsp;PostGreSQL, pgAdmin SQLite, Microsoft SQL Server (MSSQL)    
 > ***Python:*** &ensp;&thinsp;Pandas, Matplotlib,  
 > ***ERD:*** &ensp;&thinsp;[Quick DBD](https://www.quickdatabasediagrams.com/)  
-> ***Machine Learning:***
+> ***Machine Learning:***  
 > ***Data Visualization***: Tableau
 
 ---
 
-### **Datasets**
-Using [Kaggle](https://www.kaggle.com/), the following datasets from 2008-2023 *(2020 not included)* will be in this investigation of March Madness:  
+### **Dataset Resources**
+From the [Kaggle March Madness Data](https://www.kaggle.com/datasets/nishaanamin/march-madness-data), we chose the following datasets from 2008-2023 to be investigated in this March Madness Analysis:  
 > <sub>[Tournament Game Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/Tournament%20Game%20Data.csv)</sub>  
 > <sub>[Tournament Team Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/Tournament%20Team%20Data.csv)</sub>  
 > <sub>[Tournament Conference Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/Tournament%20Conference%20Data.csv)</sub>  
@@ -27,22 +27,24 @@ Using [Kaggle](https://www.kaggle.com/), the following datasets from 2008-2023 *
 > <sub>[Tournament Trends](https://github.com/smabernathy27/Final_Project/blob/main/CSV/Tournament%20Trends.csv)</sub>  
 > <sub>[Unranked Teams Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/Unranked%20Teams%20Data.csv)</sub>  
 
-The above datasets pulled from [https://kenpom.com/](https://kenpom.com/) & [https://www.barttorvik.com/#](https://www.barttorvik.com/#) are not ideal to analyze with a machine learning model yet. Thus, we initially planned out the relational database we will create with [Quick DBD](https://www.quickdatabasediagrams.com/) to help model the data through ERDs conceptually, logically, and physically. 
+The above data <sub>*(pulled from [https://kenpom.com/](https://kenpom.com/) & [https://www.barttorvik.com/#](https://www.barttorvik.com/#))*</sub> is not ideal to analyze with a machine learning model yet. Before performing analysis, we use **Python** and **Pandas** to extract and transform the data when collecting, cleaning, and storing data through the **ETL** *(extract, transform, load)* process.
 
 ---
 
 ### **March Madness Database with SQL**
+We initially planned out the relational database we will create through an **ERD** *(entity relationship diagram)* with [Quick DBD](https://www.quickdatabasediagrams.com/) to help model the data conceptually, logically, and physically.
+
 Once the dataset CSV files are imported succesfully into a **PostgreSQL** database using **pgAdmin**, we cleaned, organized, and performed initial exploratory data analysis on the pulled March Madness datasets above.
 >> ***PostgreSQL** is a database engine that implements SQL standards and listens as a server on a network TCP port to provide its abilities. On the other hand, **pgAdmin** is a graphical user interface administration tool for **PostgreSQL**. It’s a client that allows you to manipulate schema and data on an instance or multiple instances of PostgreSQL engines.*
 
 Basing the relational database of the imported datasets off our initially diagrammed ERD, we wrote and executed ***SQL queries*** in a query tool with **pgAdmin**:
 > [March_Madness.sql]() 
 
-To create tables for building one March Madness **PostgreSQL database**, exported as the CSV files below:
-> [Tournament Game Data](https://github.com/smabernathy27/Final_Project/blob/main/)
-> [Tournament Team Data](https://github.com/smabernathy27/Final_Project/blob/main/)
-> [Tournament Conference Data](https://github.com/smabernathy27/Final_Project/blob/main/)
-> [Upset Count Data](https://github.com/smabernathy27/Final_Project/blob/main/)
+To create tables for building one March Madness **PostgreSQL database** exported as the CSV files below:
+> [Tournament Game Data](https://github.com/smabernathy27/Final_Project/blob/main/)  
+> [Tournament Team Data](https://github.com/smabernathy27/Final_Project/blob/main/)  
+> [Tournament Conference Data](https://github.com/smabernathy27/Final_Project/blob/main/)  
+> [Upset Count Data](https://github.com/smabernathy27/Final_Project/blob/main/)  
 
 ---
 
@@ -64,13 +66,23 @@ After conlusively optimizing the performance of all models, the final results of
 ---
 
 ## Overview of Analysis
+We first apply the extract, transform, and load (ETL) process, which are the three steps used when collecting, cleaning, and storing data in a database prior to performing analysis. Use Python and Pandas to perform the extract and transform steps. Then, create a PostgreSQL database and table schemas by using an entity relationship diagram (ERD), and load the data into the database. Finally, use SQL to perform data analysis.
 
-### **Extract, Transform, and Load with SQL**
-- Data Modeling
-- Data Engineering
-- Data Analysis
+### **March Madness Database with SQL**
+1. Data Modeling
+2. Data Engineering
+3. Data Analysis
 
-In the [March_Madness.sql](), datasets from [Kaggle](https://www.kaggle.com/) were used to create a database in **Postgres**. Once we import the initial datasets into **Postgres**, we will be able to create each table for each CSV. These tables will be tailored specifically for the data in each file.
+
+- ETL (Extract, Transform, and Load) with SQL
+
+In the [March_Madness.sql](), datasets pulled from [Kaggle March Madness Data](https://www.kaggle.com/datasets/nishaanamin/march-madness-data) were used to create a March Madness database in **PostgreSQL**  
+1.  
+2.  
+3.  
+4.  
+
+These tables will be tailored specifically for the data in each file.
 ETL Process:
 - Inspect, Extract, and Explore the Data
 - Clean and Transform the Datasets
