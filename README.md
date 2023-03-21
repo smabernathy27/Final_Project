@@ -41,8 +41,8 @@ Basing the relational database of the imported datasets off our initially diagra
 > [March_Madness.sql]() 
 
 To create tables for building one March Madness **PostgreSQL database** exported as the CSV files below:
-> [Tournament Game Data](https://github.com/smabernathy27/Final_Project/blob/main/)  
-> [Tournament Team Data](https://github.com/smabernathy27/Final_Project/blob/main/)  
+> [Tournament Game Data](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentGameData.csv)  
+> [Tournament Team Data](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)  
 > [Tournament Conference Data](https://github.com/smabernathy27/Final_Project/blob/main/)  
 > [Upset Count Data](https://github.com/smabernathy27/Final_Project/blob/main/)  
 
