@@ -8,7 +8,7 @@ March Madness is an annual college basketball tournament that captivates sports 
 > ***ERD:*** &ensp;&thinsp;[Quick DBD](https://www.quickdatabasediagrams.com/)  
 > ***SQL***: &ensp;&thinsp;PostGreSQL, pgAdmin 
 > ***Python:*** &ensp;&thinsp;Pandas, Matplotlib,  
-> ***Machine Learning:*** &ensp;&thinsp;Deep Learning with Neural Network modeling
+> ***Machine Learning:*** &ensp;&thinsp;Deep Learning with Neural Network modeling  
 > ***Data Visualization***: &ensp;&thinsp;Tableau or webpage
 
 ---
