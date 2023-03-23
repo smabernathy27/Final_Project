@@ -51,7 +51,7 @@ Basing the relational database of the imported datasets off our initially diagra
 
 The database was also additionally able to be accessed by all contributing members in the **AWS RDS Console** with **pgAdmin** through [Amazon Web Services](https://aws.amazon.com/).
 
-To create tables for building one March Madness **PostgreSQL database** exported as the CSV files below:
+To clean the dataset tables for building one March Madness database exported as the CSV files below:
 > [CleanTournamentTeamData/csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)  
 > [Clean2023TournamentData.csv](https://github.com/smabernathy27/Final_Project/blob/main/Clean2023TournamentData.csv)  
 > [CleanTournamentGameData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentGameData.csv)  
