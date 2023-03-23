@@ -60,9 +60,9 @@ To create tables for building one March Madness **PostgreSQL database** exported
 
 ### **Machine Learning**
 
-After exporting these tables as CSV files, the data is ready to be preprocessed. We will then train and evaluate several machine learning models *(including logistic regression, decision trees, random forests, and neural networks)* to understand the trends and patterns in March Madness games.   
+After exporting these tables as CSV files, the data is ready to be preprocessed. We will then train and evaluate the data through deep machine learning models based off decision trees, ultimately through neural network models to understand the trends and patterns in March Madness games.   
 
-After conlusively optimizing the performance of all models, the final results of each model are compared *(including the best performing model and its accuracy)* to select the best model for predicting the outcome of March Madness games. 
+After conlusively optimizing the performance of all models, the final results of each model are compared in a compliance test *(including the best performing model and its accuracy)* to select the best model for predicting the outcome of March Madness games. 
 
 ---
 
