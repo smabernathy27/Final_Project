@@ -3,12 +3,13 @@ March Madness is an annual college basketball tournament that captivates sports 
 
 ---
 
+
 ### **Data Analysis Technology Tools**
-> ***SQL***<sub>*(Structured Query Language)*</sub>: &ensp;&thinsp;PostGreSQL, pgAdmin SQLite, Microsoft SQL Server (MSSQL)    
-> ***Python:*** &ensp;&thinsp;Pandas, Matplotlib,  
 > ***ERD:*** &ensp;&thinsp;[Quick DBD](https://www.quickdatabasediagrams.com/)  
-> ***Machine Learning:***  
-> ***Data Visualization***: Tableau
+> ***SQL***: &ensp;&thinsp;PostGreSQL, pgAdmin 
+> ***Python:*** &ensp;&thinsp;Pandas, Matplotlib,  
+> ***Machine Learning:*** &ensp;&thinsp;Deep Learning with Neural Network modeling  
+> ***Data Visualization***: &ensp;&thinsp;Tableau or webpage
 
 ---
 
@@ -18,12 +19,11 @@ From the [Kaggle March Madness Data](https://www.kaggle.com/datasets/nishaanamin
 > <sub>[Tournament Team Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/Tournament%20Team%20Data.csv)</sub>  
 > <sub>[Tournament Conference Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/Tournament%20Conference%20Data.csv)</sub>  
 > <sub>[Upset Count Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/Upset%20Count%20Data.csv)</sub>  
-
-> <sub>[2023 Conference Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/2023%20Conference%20Data.csv)</sub>  
-> <sub>[2023 Game Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/2023%20Game%20Data.csv)</sub>  
-> <sub>[2023 Tournament Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/2023%20Tournament%20Data.csv)</sub>  
-> <sub>[2023 Tournament Trends](https://github.com/smabernathy27/Final_Project/blob/main/CSV/2023%20Tournament%20Trends.csv)</sub>  
+> <sub>[2023 Tournament Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/2023%20Tournament%20Data.csv)</sub> 
 > <sub>[Tournament Team Data (Including 2023)](https://github.com/smabernathy27/Final_Project/blob/main/CSV/Tournament%20Team%20Data%20(Including%202023).csv)</sub>  
+> <sub>[2023 Game Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/2023%20Game%20Data.csv)</sub>  
+> <sub>[2023 Tournament Trends](https://github.com/smabernathy27/Final_Project/blob/main/CSV/2023%20Tournament%20Trends.csv)</sub>  
+> <sub>[2023 Conference Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/2023%20Conference%20Data.csv)</sub>  
 > <sub>[Tournament Trends](https://github.com/smabernathy27/Final_Project/blob/main/CSV/Tournament%20Trends.csv)</sub>  
 > <sub>[Unranked Teams Data](https://github.com/smabernathy27/Final_Project/blob/main/CSV/Unranked%20Teams%20Data.csv)</sub>  
 
