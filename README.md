@@ -10,6 +10,7 @@ March Madness is an annual college basketball tournament that captivates sports 
 > ***ETL:*** &ensp;&thinsp;AWS RDS console  
 > ***Python:*** &ensp;&thinsp;Pandas, NumPy, Matplotlib, TensorFlow, Scikit_learn   
 > ***Machine Learning:*** &ensp;&thinsp;Deep Learning with Neural Network modeling   
+> ***Elevator Pitch***: &ensp;&thinsp;Google Slides  
 > ***Data Visualization***: &ensp;&thinsp;Tableau or webpage  
 
 ---
