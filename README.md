@@ -5,11 +5,12 @@ March Madness is an annual college basketball tournament that captivates sports 
 
 
 ### **Data Analysis Technology Tools**
-> ***ERD:*** &ensp;&thinsp;[Quick DBD](https://www.quickdatabasediagrams.com/)  
-> ***SQL***: &ensp;&thinsp;PostGreSQL, pgAdmin 
-> ***Python:*** &ensp;&thinsp;Pandas, Matplotlib,  
-> ***Machine Learning:*** &ensp;&thinsp;Deep Learning with Neural Network modeling  
-> ***Data Visualization***: &ensp;&thinsp;Tableau or webpage
+> ***ERD:*** &ensp;&thinsp;[Quick DBD](https://www.quickdatabasediagrams.com/)   
+> ***SQL***: &ensp;&thinsp;PostGreSQL, pgAdmin   
+> ***Python:*** &ensp;&thinsp;Pandas, Matplotlib,   
+> ***ETL:*** &ensp;&thinsp;AWS RDS console  
+> ***Machine Learning:*** &ensp;&thinsp;Deep Learning with Neural Network modeling   
+> ***Data Visualization***: &ensp;&thinsp;Tableau or webpage  
 
 ---
 
@@ -48,6 +49,16 @@ To create tables for building one March Madness **PostgreSQL database** exported
 
 ---
 
+### **ETL**
+These tables will be tailored specifically for the data in each file.
+ETL Process:
+- Inspect, Extract, and Explore the Data
+- Clean and Transform the Datasets
+- Data Transformation and CLeaning using Regular Expressions
+- Create a Database Scheme and Load the Data
+
+The [CleanTournamentTeamData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv) was chosen to analyze further by performing ETL with **pgAdmin** through [Amazon Web Services](https://aws.amazon.com/).
+
 ### **Machine Learning**
 
 After exporting these tables as CSV files, the data is ready to be preprocessed. We will then train and evaluate several machine learning models *(including logistic regression, decision trees, random forests, and neural networks)* to understand the trends and patterns in March Madness games.   
@@ -73,21 +84,23 @@ We first apply the extract, transform, and load (ETL) process, which are the thr
 2. Data Engineering
 3. Data Analysis
 
-
-- ETL (Extract, Transform, and Load) with SQL
-
 In the [March_Madness.sql](), datasets pulled from [Kaggle March Madness Data](https://www.kaggle.com/datasets/nishaanamin/march-madness-data) were used to create a March Madness database in **PostgreSQL**  
 1.  
 2.  
 3.  
 4.  
 
-These tables will be tailored specifically for the data in each file.
-ETL Process:
-- Inspect, Extract, and Explore the Data
-- Clean and Transform the Datasets
-- Data Transformation and CLeaning using Regular Expressions
-- Create a Database Scheme and Load the Data
+- ETL (Extract, Transform, and Load) with SQL
+To perform **ETL** on March Madness data, a new database must first be created with **AWS RDS console** according to the following connection & security settings:
+  - ***Inbound rules*** edited to add type `PostgresSQL` with the source set to `Anywhere-IPv4` 
+  - ***Outbound rules*** check that the Custom Destination has `0.0.0.0/0` 
+     
+Then to create a new database in this ***Amazon RDS server*** through **pgAdmin**, the server must be added accordingly:
+  - Port Number 5432
+  - Host name/address in connection settings is the URL endpoint of the previously created AWS RDS instance   
+In **pgAdmin**, a new query was ran to create the following tables from this new database: 
+
+
 
 ## Results
 
