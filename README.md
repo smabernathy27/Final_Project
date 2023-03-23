@@ -35,21 +35,6 @@ The above data <sub>*(pulled from [https://kenpom.com/](https://kenpom.com/) & [
 ### **March Madness Database with SQL**
 We initially planned out the relational database we will create through an **ERD** *(entity relationship diagram)* with [Quick DBD](https://www.quickdatabasediagrams.com/) to help model the data conceptually, logically, and physically.
 
-Once the dataset CSV files are imported succesfully into a **PostgreSQL** database using **pgAdmin**, we cleaned, organized, and performed initial exploratory data analysis on the pulled March Madness datasets above.
->> ***PostgreSQL** is a database engine that implements SQL standards and listens as a server on a network TCP port to provide its abilities. On the other hand, **pgAdmin** is a graphical user interface administration tool for **PostgreSQL**. It’s a client that allows you to manipulate schema and data on an instance or multiple instances of PostgreSQL engines.*
-
-Basing the relational database of the imported datasets off our initially diagrammed ERD, we wrote and executed ***SQL queries*** in a query tool with **pgAdmin**:
-> [March_Madness.sql]() 
-
-To create tables for building one March Madness **PostgreSQL database** exported as the CSV files below:
-> [Tournament Game Data](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentGameData.csv)  
-> [Tournament Team Data](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)  
-> [Tournament Conference Data](https://github.com/smabernathy27/Final_Project/blob/main/)  
-> [Upset Count Data](https://github.com/smabernathy27/Final_Project/blob/main/)  
-
----
-
-### **ETL**
 These tables will be tailored specifically for the data in each file.
 ETL Process:
 - Inspect, Extract, and Explore the Data
@@ -57,7 +42,18 @@ ETL Process:
 - Data Transformation and CLeaning using Regular Expressions
 - Create a Database Scheme and Load the Data
 
-The [CleanTournamentTeamData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv) was chosen to analyze further by performing ETL with **pgAdmin** through [Amazon Web Services](https://aws.amazon.com/).
+Once the dataset CSV files are imported succesfully into a **PostgreSQL** database using **pgAdmin**, we cleaned, organized, and performed initial exploratory data analysis on the pulled March Madness datasets above.
+>> ***PostgreSQL** is a database engine that implements SQL standards and listens as a server on a network TCP port to provide its abilities. On the other hand, **pgAdmin** is a graphical user interface administration tool for **PostgreSQL**. It’s a client that allows you to manipulate schema and data on an instance or multiple instances of PostgreSQL engines.*
+
+Basing the relational database of the imported datasets off our initially diagrammed ERD, we wrote and executed ***SQL queries*** in a query tool with **pgAdmin**:
+> [March_Madness.sql](https://github.com/smabernathy27/Final_Project/blob/main/Final_Project_SQL.sql) 
+
+The database was also additionally able to be accessed by all contributing members in the **AWS RDS Console** with **pgAdmin** through [Amazon Web Services](https://aws.amazon.com/).
+
+To create tables for building one March Madness **PostgreSQL database** exported as the CSV files below:
+> [CleanTournamentTeamData/csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)  
+> [Clean2023TournamentData.csv](https://github.com/smabernathy27/Final_Project/blob/main/Clean2023TournamentData.csv)  
+> [CleanTournamentGameData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentGameData.csv)  
 
 ---
 
@@ -70,6 +66,7 @@ After conlusively optimizing the performance of all models, the final results of
 ---
 
 ### **Questions looking to answer:**
+Elevator Pitch for March Madness Analysis will be presented in Google Slides [Final Project](https://docs.google.com/presentation/d/1jjn3hMonrdk1jt7RldY0wpyRXN3ro3zbZiDkNG6ceFo/edit?usp=share_link) with Tableau visualization additionally featured, addressing the following objectives:  
 - Do higher seeds consistenly perform better?
 - Do certain conferences perform better in March Madness?
 - How many upsets are there on average in a tournament? Are they're specific seeds or teams with certain kenpom rankings that create the most upsets?
@@ -86,11 +83,10 @@ We first apply the extract, transform, and load (ETL) process, which are the thr
 2. Data Engineering
 3. Data Analysis
 
-In the [March_Madness.sql](), datasets pulled from [Kaggle March Madness Data](https://www.kaggle.com/datasets/nishaanamin/march-madness-data) were used to create a March Madness database in **PostgreSQL**  
-1.  
-2.  
-3.  
-4.  
+In the [March_Madness.sql](https://github.com/smabernathy27/Final_Project/blob/main/Final_Project_SQL.sql), datasets pulled from [Kaggle March Madness Data](https://www.kaggle.com/datasets/nishaanamin/march-madness-data) were used and cleaned to create a March Madness database in **PostgreSQL** with the following exported tables as csv files:
+1.  [Clean2023TournamentData.csv](https://github.com/smabernathy27/Final_Project/blob/main/Clean2023TournamentData.csv)
+2.  [CleanTournamentGameData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentGameData.csv)
+3.  [CleanTournamentTeamData/csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)
 
 - ETL (Extract, Transform, and Load) with SQL
 To perform **ETL** on March Madness data, a new database must first be created with **AWS RDS console** according to the following connection & security settings:
