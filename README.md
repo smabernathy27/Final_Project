@@ -59,6 +59,8 @@ ETL Process:
 
 The [CleanTournamentTeamData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv) was chosen to analyze further by performing ETL with **pgAdmin** through [Amazon Web Services](https://aws.amazon.com/).
 
+---
+
 ### **Machine Learning**
 
 After exporting these tables as CSV files, the data is ready to be preprocessed. We will then train and evaluate several machine learning models *(including logistic regression, decision trees, random forests, and neural networks)* to understand the trends and patterns in March Madness games.   
