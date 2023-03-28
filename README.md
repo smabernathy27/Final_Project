@@ -52,9 +52,19 @@ Basing the relational database of the imported datasets off our initially diagra
 The database was also additionally able to be accessed by all contributing members in the **AWS RDS Console** with **pgAdmin** through [Amazon Web Services](https://aws.amazon.com/).
 
 To clean the dataset tables for building one March Madness database exported as the CSV files below:
-> [CleanTournamentTeamData/csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)  
+> [CleanTournamentTeamData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)  
 > [Clean2023TournamentData.csv](https://github.com/smabernathy27/Final_Project/blob/main/Clean2023TournamentData.csv)  
 > [CleanTournamentGameData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentGameData.csv)  
+
+Within this dataset are a number of columns that capture metadata about each organization:
+- **Year** and **Team** --> Identification columns  
+- **Seed** --> The preliminary ranking a team is given. The lower number the seed is, the better the team projected to be
+- **Team Round** --> The last round the team played in. 68 = Round of 68, 64 = First Round, 32 = Second Round, 16 = Sweet 16, 8 = Elite 8, 4 = Final 4, 2 = Finals, 1 = Champion
+- **Current Round** --> The round that the team's matchup is in
+- **Kenpom Adjusted Efficiency** --> Estimates how many points a team would outscore the average Division I basketball team by over the course of 100 possessions. (by Ken Pomeroy)
+- **Kenpom Adjusted Offense** --> Estimates how many points a team would score against the average Division I basketball offense by over the course of 100 possessions. (by Ken Pomeroy)
+- **Kenpom Adjusted Defense** --> Estimates how many points a team would allow against the average Division I basketball defense by over the course of 100 possessions. (by Ken Pomeroy)
+- **Win** --> Binary classification of team success in March Madness with '1' indicating winner of March Madness for that respective year and '0' meaning the team did not win March Madness
 
 ---
 
@@ -89,6 +99,8 @@ In the [March_Madness.sql](https://github.com/smabernathy27/Final_Project/blob/m
     - Then to create a new database in this ***Amazon RDS server*** through **pgAdmin**, the server must be added accordingly:
         - Port Number 5432
         - Host name/address in connection settings is the URL endpoint of the previously created AWS RDS instance   
+
+The datasets pulled from [Kaggle March Madness Data](https://www.kaggle.com/datasets/nishaanamin/march-madness-data) are cleaned accordingly:
 
 In **pgAdmin**, a new query was ran to create the following tables from this new database:  
 1.  [Clean2023TournamentData.csv](https://github.com/smabernathy27/Final_Project/blob/main/Clean2023TournamentData.csv)
