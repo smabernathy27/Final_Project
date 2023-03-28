@@ -59,11 +59,13 @@ To clean the dataset tables for building one March Madness database exported as 
 Within this dataset are a number of columns that capture metadata about each organization:
 - **Year** and **Team** --> Identification columns  
 - **Seed** --> The preliminary ranking a team is given. The lower number the seed is, the better the team projected to be
-- **Team Round** --> The last round the team played in. 68 = Round of 68, 64 = First Round, 32 = Second Round, 16 = Sweet 16, 8 = Elite 8, 4 = Final 4, 2 = Finals, 1 = Champion
-- **Current Round** --> The round that the team's matchup is in
+- **Round** --> The last round the team played in. 68 = Round of 68, 64 = First Round, 32 = Second Round, 16 = Sweet 16, 8 = Elite 8, 4 = Final 4, 2 = Finals, 1 = Champion
 - **Kenpom Adjusted Efficiency** --> Estimates how many points a team would outscore the average Division I basketball team by over the course of 100 possessions. (by Ken Pomeroy)
 - **Kenpom Adjusted Offense** --> Estimates how many points a team would score against the average Division I basketball offense by over the course of 100 possessions. (by Ken Pomeroy)
 - **Kenpom Adjusted Defense** --> Estimates how many points a team would allow against the average Division I basketball defense by over the course of 100 possessions. (by Ken Pomeroy)
+- **Kenpom Adjusted Tempo** --> The speed, in possessions per 40 minutes, at which a team would be expected to play against an average Division I basketball pace. (by Ken Pomeroy) 
+- **Barttorvik Adjusted Efficiency** --> Estimates how many points a team would outscore the average Division I basketball team by over the course of 100 possessions. (by Bart Torvik) 
+- **Barttorvik Adjusted Offense** --> Estimates how many points a team would score against the average Division I basketball offense by over the course of 100 possessions. (by Bart Torvik)
 - **Win** --> Binary classification of team success in March Madness with '1' indicating winner of March Madness for that respective year and '0' meaning the team did not win March Madness
 
 ---
@@ -72,7 +74,7 @@ Within this dataset are a number of columns that capture metadata about each org
 
 After exporting these tables as CSV files, the data is ready to be preprocessed. We will then train and evaluate the data through deep machine learning models based off decision trees, ultimately through neural network models to understand the trends and patterns in March Madness games.   
 
-After conlusively optimizing the performance of all models, the final results of each model are compared in a compliance test *(including the best performing model and its accuracy)* to select the best model for predicting the outcome of March Madness games. 
+After conlusively optimizing the performance of all models, the final results of each model are compared in a compliance test *(including the best performing model and its accuracy)* to select the best model for predicting the outcome of March Madness games.  
 
 ---
 
@@ -80,7 +82,7 @@ After conlusively optimizing the performance of all models, the final results of
 Elevator Pitch for March Madness Analysis will be presented in Google Slides [Final Project](https://docs.google.com/presentation/d/1jjn3hMonrdk1jt7RldY0wpyRXN3ro3zbZiDkNG6ceFo/edit?usp=share_link) with Tableau visualization additionally featured, addressing the following objectives:  
 - Do higher seeds consistenly perform better?
 - Do certain conferences perform better in March Madness?
-- How many upsets are there on average in a tournament? Are they're specific seeds or teams with certain kenpom rankings that create the most upsets?
+- How many upsets are there on average in a tournament? Are there specific seeds or teams with certain kenpom rankings that create the most upsets?
 - Can we use these trends to pick a winner or narrow it down significantly?
 
 ---
