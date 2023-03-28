@@ -105,7 +105,7 @@ The datasets pulled from [Kaggle March Madness Data](https://www.kaggle.com/data
 In **pgAdmin**, a new query was ran to create the following tables from this new database:  
 1.  [Clean2023TournamentData.csv](https://github.com/smabernathy27/Final_Project/blob/main/Clean2023TournamentData.csv)
 2.  [CleanTournamentGameData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentGameData.csv)
-3.  [CleanTournamentTeamData/csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)
+3.  [CleanTournamentTeamData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)
 
 
 
