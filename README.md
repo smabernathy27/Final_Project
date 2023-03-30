@@ -103,6 +103,21 @@ In **pgAdmin**, a new query was ran to create the following tables from this new
 2.  [CleanTournamentGameData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentGameData.csv)
 3.  [CleanTournamentTeamData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)
 
+### **Deep Machine Learning with Neural Network Modeling**
+After importing the necessary dependencies to initialize [AlphabetSoupCharity.ipynb file](https://github.com/vzhang90/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb), ***preprocess the data for a neural network model*** by:
+1. Read in the [CleanTournamentTeamData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)
+ to a Pandas DataFrame
+    - identifies variable(s) considered the target(s)
+    - identifies variable(s) considered the feature(s)
+2. Create a density plot to determine the distribution of the column values
+3. Use the density plot to create a cutoff point to bin "rare" categorical variables together in a new column, `Other`, and then check if the binning was successful
+4. Generate a list of categorical variables
+5. Encode categorical variables using one-hot encoding, and place the variables in a new DataFrame
+6. Merge the one-hot encoding DataFrame with the original DataFrame, and drop the originals
+7. Split the preprocessed data into features and target arrays
+8. Split the preprocessed data into training and testing datasets
+9. Standardize numerical variables using Scikit-Learn’s `StandardScaler` class, then scale the data
+
 
 
 ## Results
