@@ -56,23 +56,17 @@ To clean the dataset tables for building one March Madness database exported as 
 > [Clean2023TournamentData.csv](https://github.com/smabernathy27/Final_Project/blob/main/Clean2023TournamentData.csv)  
 > [CleanTournamentGameData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentGameData.csv)  
 
-Within this dataset are a number of columns that capture metadata about each organization:
-- **Year** and **Team** --> Identification columns  
-- **Seed** --> The preliminary ranking a team is given. The lower number the seed is, the better the team projected to be
-- **Round** --> The last round the team played in. 68 = Round of 68, 64 = First Round, 32 = Second Round, 16 = Sweet 16, 8 = Elite 8, 4 = Final 4, 2 = Finals, 1 = Champion
-- **Kenpom Adjusted Efficiency** --> Estimates how many points a team would outscore the average Division I basketball team by over the course of 100 possessions. (by Ken Pomeroy)
-- **Kenpom Adjusted Offense** --> Estimates how many points a team would score against the average Division I basketball offense by over the course of 100 possessions. (by Ken Pomeroy)
-- **Kenpom Adjusted Defense** --> Estimates how many points a team would allow against the average Division I basketball defense by over the course of 100 possessions. (by Ken Pomeroy)
-- **Kenpom Adjusted Tempo** --> The speed, in possessions per 40 minutes, at which a team would be expected to play against an average Division I basketball pace. (by Ken Pomeroy) 
-- **Barttorvik Adjusted Efficiency** --> Estimates how many points a team would outscore the average Division I basketball team by over the course of 100 possessions. (by Bart Torvik) 
-- **Barttorvik Adjusted Offense** --> Estimates how many points a team would score against the average Division I basketball offense by over the course of 100 possessions. (by Bart Torvik)
-- **Win** --> Binary classification of team success in March Madness with '1' indicating winner of March Madness for that respective year and '0' meaning the team did not win March Madness
+Within this dataset are a number of columns that capture metadata about each organization, a new column will be created named "Win." This column will be a newly added binary classification to quantify the Team that wins March Madness that respective year.
 
 ---
 
 ### **Machine Learning**
 
 After exporting these tables as CSV files, the data is ready to be preprocessed. We will then train and evaluate the data through deep machine learning models based off decision trees, ultimately through neural network models to understand the trends and patterns in March Madness games.   
+
+**Neural networks** *(also known as artificial neural networks, or ANN)* are a set of algorithms that are modeled after the human brain with an advanced form of machine learning that recognizes patterns and features in input data and provides a clear quantitative output.
+
+We will use the neural network model to create a classification algorithm that determines if an input belongs in one category versus another. Alternatively neural network models can behave like a regression model, where a dependent output variable can be predicted from independent input variables. Therefore, neural network models can be an alternative to many of the traditional statistical or machine learning models, such as random forest, logistic regression, or multiple linear regression. 
 
 After conlusively optimizing the performance of all models, the final results of each model are compared in a compliance test *(including the best performing model and its accuracy)* to select the best model for predicting the outcome of March Madness games.  
 
