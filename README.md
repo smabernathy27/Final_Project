@@ -79,7 +79,7 @@ After conlusively optimizing the performance of all models, the final results of
 ---
 
 ### **Questions looking to answer:**
-Elevator Pitch for March Madness Analysis will be presented in Google Slides [Final Project](https://docs.google.com/presentation/d/1jjn3hMonrdk1jt7RldY0wpyRXN3ro3zbZiDkNG6ceFo/edit?usp=share_link) with Tableau visualization additionally featured, addressing the following objectives:  
+Elevator Pitch for March Madness Analysis will be presented in Google Slides [Final Project](https://docs.google.com/presentation/d/1jjn3hMonrdk1jt7RldY0wpyRXN3ro3zbZiDkNG6ceFo/edit?usp=sharing) with Tableau visualization additionally featured, addressing the following objectives: [Data_Dashboard_and_Story](link to be added)  
 - Do higher seeds consistenly perform better?
 - Do certain conferences perform better in March Madness?
 - How many upsets are there on average in a tournament? Are there specific seeds or teams with certain kenpom rankings that create the most upsets?
