@@ -104,7 +104,7 @@ In **pgAdmin**, a new query was ran to create the following tables from this new
 3.  [CleanTournamentTeamData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)
 
 ### **Deep Machine Learning with Neural Network Modeling**
-After importing the necessary dependencies to initialize [AlphabetSoupCharity.ipynb file](https://github.com/vzhang90/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb), ***preprocess the data for a neural network model*** by:
+After importing the necessary dependencies to initialize [TournamentTeamData_MachineCode.ipynb](https://github.com/smabernathy27/Final_Project/blob/main/TournamentTeamData_MachineCode.ipynb), ***preprocess the data for a neural network model*** by:
 1. Read in the [CleanTournamentTeamData.csv](https://github.com/smabernathy27/Final_Project/blob/main/CleanTournamentTeamData.csv)
  to a Pandas DataFrame
     - identifies variable(s) considered the target(s)
@@ -118,6 +118,7 @@ After importing the necessary dependencies to initialize [AlphabetSoupCharity.ip
 8. Split the preprocessed data into training and testing datasets
 9. Standardize numerical variables using Scikit-Learn’s `StandardScaler` class, then scale the data
 
+Then Compile, Train, and Evaluate to Optimize the Model accordingLy?
 
 
 ## Results
