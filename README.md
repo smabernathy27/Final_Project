@@ -123,6 +123,7 @@ Then Compile, Train, and Evaluate to Optimize the Model accordingLy?
 
 ## Results
 
+In order to determine if a winner could be predicted off of our data, we ran a nueral network model with 2 layers. The first with 8 nuerons and the second with 5. Both layers used the Relu activation function. You will note that that resulting accuracy score was approx. 98.5% after just 5 enochs.
 
 ![image](https://user-images.githubusercontent.com/115592394/229671572-06b0c38a-0be2-435e-aee7-db4569e06423.png)
 
