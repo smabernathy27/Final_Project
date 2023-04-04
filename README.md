@@ -123,4 +123,7 @@ Then Compile, Train, and Evaluate to Optimize the Model accordingLy?
 
 ## Results
 
+
+![image](https://user-images.githubusercontent.com/115592394/229671572-06b0c38a-0be2-435e-aee7-db4569e06423.png)
+
 ## Summary
