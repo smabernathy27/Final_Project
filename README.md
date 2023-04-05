@@ -88,14 +88,7 @@ We first apply the extract, transform, and load (ETL) process, which are the thr
 ### **March Madness Database with SQL**
 In the [March_Madness.sql](https://github.com/smabernathy27/Final_Project/blob/main/Final_Project_SQL.sql), datasets pulled from [Kaggle March Madness Data](https://www.kaggle.com/datasets/nishaanamin/march-madness-data) were used and cleaned to create a March Madness database.
 - ETL (Extract, Transform, and Load) with SQL
-    - To perform **ETL** on March Madness data, a new database must first be created with **AWS RDS console** according to the following connection & security settings:
-        - ***Inbound rules*** edited to add type `PostgresSQL` with the source set to `Anywhere-IPv4` 
-        - ***Outbound rules*** check that the Custom Destination has `0.0.0.0/0` 
-        
-    - Then to create a new database in this ***Amazon RDS server*** through **pgAdmin**, the server must be added accordingly:
-        - Port Number 5432
-        - Host name/address in connection settings is the URL endpoint of the previously created AWS RDS instance   
-
+    - To perform **ETL** on March Madness data, a new database must first be created 
 The datasets pulled from [Kaggle March Madness Data](https://www.kaggle.com/datasets/nishaanamin/march-madness-data) are cleaned accordingly:
 
 In **pgAdmin**, a new query was ran to create the following tables from this new database:  
