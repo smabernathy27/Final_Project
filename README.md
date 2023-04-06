@@ -121,3 +121,6 @@ In order to determine if a winner could be predicted off of our data, we ran a n
 ![image](https://user-images.githubusercontent.com/115592394/229671572-06b0c38a-0be2-435e-aee7-db4569e06423.png)
 
 ## Summary
+This project aims to use machine learning techniques to analyze March Madness data from 2008-2023 provided by Kaggle and create a model that can predict the winner of each game in the tournament. The project involves using data analysis technology tools such as ERD, SQL, ETL, Python, and machine learning techniques such as deep learning with neural network modeling to understand the trends and patterns in March Madness games.
+
+An alternative model that could be used to analyze the data is the random forest model. The random forests model is a type of machine learning algorithm that can be used for both classification and regression tasks. They work by constructing multiple decision trees and combining them to produce a final prediction. Random forests are known for their high accuracy and ability to handle large datasets with many variables, which could be useful in analyzing the March Madness data and providing an alternative model to predicting the winners of March Madness.
